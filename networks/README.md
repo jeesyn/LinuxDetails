@@ -49,6 +49,17 @@ read返回-1，errno是ECONNRESET，即Connection reset by peer
 其中INADDR_ANY表示任意地址，其与所有地址视为相同。
 
 
+# 5.no_listen_tcp_conn  
+
+## 问题  
+没有listen调用，是否可以建立tcp连接
 
 
+# 6.tcp_keepalive_reporter
+当TCP的KeepAlive机制判定连接超时，应用层如何得到通知。  
+
+
+
+# 7.tcp_send_rst  
+应用层如何强制TCP发送RST中断连接。 
 
